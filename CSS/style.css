@@ -1,14 +1,21 @@
 /* Estilos de la pagina*/
 
-
 * {
-    margin: 0% ; padding: 0%; box-sizing: border-box; font-family: '
-  }
-
-html{
-    font-size: 62.5%;
+  margin: 0%;
+  padding: 0%;
 }
-  
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "PT Sans";
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   color: aqua;
 }
@@ -19,7 +26,7 @@ ul li {
 
 #principal {
   color: rgb(40, 189, 87);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: PT Sans;
   font-size: 25px;
   background-image: url("../img/pexels-fwstudio-33348-129731.jpg");
   background-position: center;
@@ -29,6 +36,28 @@ ul li {
 
 #principal p {
   color: rgb(0, 0, 0);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2.5rem;
+  font-family: PT Sans;
+}
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
