@@ -1,5 +1,14 @@
 /* Estilos de la pagina*/
 
+
+* {
+    margin: 0% ; padding: 0%; box-sizing: border-box; font-family: '
+  }
+
+html{
+    font-size: 62.5%;
+}
+  
 h1 {
   color: aqua;
 }
@@ -21,5 +30,5 @@ ul li {
 #principal p {
   color: rgb(0, 0, 0);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
