@@ -1,0 +1,18 @@
+/* Estilos de la pagina*/
+
+
+h1 {
+  color: aqua;
+}
+
+ul li {
+  color: rgb(186, 168, 34);
+}
+
+#principal {
+  color: rgb(40, 189, 87);
+}
+
+#principal p {
+  color: rgb(0, 0, 0);
+}
